@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW | Bonus Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="container nav-container">
+                <a class="logo" href="Index.html"><span>App</span>laudo</a>
+                <ul>
+                    <li class="nav-item">
+                        <a href="Index.html" class="nav-link">To-do List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="calculator.html" class="nav-link ">Bonus Calculator</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="main-section">
+        <div class="top-space"></div>
+        <div class="container form-div">
+            <form id="bonus-form" method="POST">
+                <div>
+                    <label class="label" for="salary-field">Salary</label>
+                    <input class="input" id="salary-field" type="text" placeholder="Salary">
+                </div>
+                <div>
+                    <label class="label" for="years-field">Years</label>
+                    <input class="input" id="years-field" type="text" placeholder="Years">
+                </div>
+                <div>
+                    <label class="label" for="days-field">Days</label>
+                    <input class="input" id="days-field" type="text" placeholder="Days worked">
+                </div>
+                <input id="calc-button" class="button" type="submit" value="Calculate Bonus">
+            </form>
+        </div>
+    </main>
+    <section id="result-section" class="result-section container">
+
+    </section>
+
+    <script src="js/calculator.js"></script>
+</body>
+
+</html>
